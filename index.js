@@ -4,7 +4,7 @@ function driversWithRevenueOver(driver,revenue){
     return driver.
   }
 }
-
+ words.filter(word => word.length > 6);
 
 
 function findMatching(drivers,name) {
