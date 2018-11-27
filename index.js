@@ -5,7 +5,7 @@ function driversWithRevenueOver(drivers, revenue) {
 }
 
 function driverNamesWithRevenueOver(drivers, revenue) {
-  greatDrivers = drivers.filter (function (driver) { return driver.revenue > revenue });
+  goodDrivers = drivers.filter (function (driver) { return driver.revenue > revenue });
   return goodDrivers.map(function (driver) { return driver.name });
 }
 
